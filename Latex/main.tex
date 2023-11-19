@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+
+\begin{document}
+
+\title{Esstentials of Scientific Computing}
+\author{Pawan\\19PH20023}
+\date{\today}
+\maketitle
+
+\section{Introduction}
+Hello everyone, this is my first \LaTeX document.
+
+\section{New Line vs New Paragraph}
+This is a new Paragraph.\\
+This will be a new line.
+
+\section{Mathamatical Equations}
+F = ma\\
+$F=ma$
+$$F = ma $$
+$$y = mx + x^3 + b$$
+$$d = \sqrt{1 + \sqrt{x^2}}$$
+
+\newpage
+\section{Tables}
+% Here, I am creating a table as Table \ref{tab:1}.
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|}
+        \hline
+        A & 1 \\ \hline
+        B & 2 \\ \hline
+    \end{tabular}
+    \caption{This is my Table}
+\end{table}
+
+\section{Images}
+% \includegraphics{chick}
+
+\section{List}
+\begin{enumerate}
+    \item item1
+    \item item2
+\end{enumerate}
+
+\section{Referencing}
+This is citation see \cite{aghaie2023bounds}.
+
+
+
+\bibliographystyle{plain}
+\bibliography{something}
+
+\end{document}
